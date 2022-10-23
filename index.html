@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Weather App</title>
+  
+  <!-- Custom Styles -->
+  
+  <link rel="stylesheet" media="screen and (min-width: 740px)" href="desktop.css"> 
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Fonts -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Lobster&family=Merriweather+Sans:ital,wght@1,500&family=Montserrat+Alternates&family=Nunito&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet">
+  
+  <!--- Font Awesome -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+ 
+</head>
+
+
+
+<body>
+ 
+<div class="date-time">
+ 
+ <p class="date">
+  <i class="fa-regular fa-calendar"></i>
+  <span class="date-text"></span>
+ </p>
+ <p class="time">
+  <i class="fa-regular fa-clock"></i>
+  <span class="time-text"></span>
+ </p>
+ 
+</div>
+
+<div class="location-div">
+    
+  <div class="location-icon-div"> 
+   <i class="location-icon fa-sharp fa-solid fa-location-dot"></i> 
+  </div> 
+   
+  <div> 
+   <h1> 
+     <span class="location-city">Ikeja</span>
+   </h1>
+   
+    <h4>
+    <span class="location-country">Nigeria</span> || <span class="location-region">Lagos</span></span>
+   </h4>
+ </div>  
+   
+   
+ </div>
+   
+   
+   
+ <div class="weather-report-temp-div">
+    
+   <div class="weather-report-div">
+   <p class="weather-temp-emoji">☀️</p>
+   <p class="weather-report">Sunny</p>
+   </div>
+   
+   <div>
+   <h2 class="weather-temp">60°c</h2>
+   </div>
+   
+</div>
+   
+   
+<div class="sunrise-sunset-div">   
+   <p class="sunrise-text"> <span class="sun-emoji"> 🌤️ </span> Sunrise: 
+    <span class="sunrise">6:33am</span>
+   </p>  
+ 
+   <p class="sunset-text"> <span class="cloud-emoji"> ⛅ </span>Sunset: 
+   <span class="sunset">6:30pm</span>
+   </p>
+ </div>
+ 
+
+   
+<div class="search-city-div">
+ 
+   <input onSearch="weatherFunc();" class="search-input" type="search" placeholder="Search City">
+   
+   <i class="search-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+   
+</div>
+   
+   
+   
+   
+ <div class="weather-stats">
+    
+    <div class="humidity-div">Humidity:
+    <span class="humidity">50</span>
+    </div>
+    
+    <div class="pressure-div">Pressure: 
+    <span class="pressure">29.74</span>
+    </div>
+    
+    <div class="latitude-div">Latitude: 
+    <span class="latitude">41.78363</span>
+    </div>
+    
+    <div class="longitude-div">Longitude: 
+    <span class="longitude">61.34562</span>
+    </div>
+    
+    <div class="timezone-div">Timezone_ID: 
+    <span class="timezone">Africa/Lagos</span>
+    </div>
+   
+</div>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>

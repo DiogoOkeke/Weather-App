@@ -1,0 +1,96 @@
+body, 
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.date-time {
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+div.date-time  p:first-child {
+ margin-right: 2rem;
+}
+
+div.date-time span.time-text, 
+span.date-text, 
+.fa-calendar, 
+.fa-clock, 
+p.sunrise-text, 
+p.sunset-text {
+    font-size: 2rem;
+}
+
+div.location-div {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+div.location-div  span.location-city {
+    font-size: 4.5rem;
+}
+
+div.location-div  i.location-icon{
+    font-size: 6.5rem;
+}
+
+div.location-div  h4 {
+    font-size: 2rem;
+}
+
+div.weather-report-temp-div {
+    margin-block: 2rem;
+}
+
+div.weather-report-temp-div  h2 {
+    font-size: 7rem;
+    margin-left: 30rem;
+    margin-right: 1rem;
+}
+
+div.weather-report-div {
+    margin-left: 1rem;
+}
+
+div.weather-report-div p:first-child {
+    font-size: 6rem;
+}
+
+div.weather-report-div  p:nth-child(2) {
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+
+div.sunrise-sunset-div {
+    margin-right: auto;
+}
+
+div.sunrise-sunset-div  p span.sun-emoji, p span.cloud-emoji {
+    font-size: 3rem;
+}
+
+div.search-city-div  input.search-input {
+    width: 40vw;
+    font-size: 1.5rem;
+}
+
+div.search-city-div  i.search-icon {
+    font-size: 2.3rem;
+}
+
+div.search-city-div  input.search-input::placeholder {
+    font-size: 1.5rem;
+} 
+
+div.weather-stats  div {
+    width: 60vw;
+    font-size: 2rem;
+    margin-left: 2.5rem;
+}
