@@ -66,9 +66,7 @@ else{
 if(hours == 00 && meridian == 'PM'){
  hours = 12;
 }
-else{
- hours = 00;
-}
+
 
 /*if(hours < 10){
  hours = '0' + hours;
