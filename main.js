@@ -55,12 +55,19 @@ let mins = dateTime.getMinutes();
 let sec = dateTime.getSeconds();
 let meridian = '';
 
-if (hours >= 12){
+if(hours >= 12){
  hours -= 12;
  meridian = 'PM';
 }
 else{
  meridian = 'AM';
+}
+
+if(hours == 00 && meridian == 'PM'){
+ hours = 12;
+}
+else{
+ hours = 00;
 }
 
 /*if(hours < 10){
