@@ -109,7 +109,7 @@ let weatherEmoji = () => {
 	  body.style.background = 'linear-gradient( to top right, #FFBC11, #FF9D1F, #FF7E2E, #FF6352)';
 	 }
 	 
-	 else if(weatherReport.textContent == 'Showers' || weatherReport.textContent == 'Rainfall' || weatherReport.textContent == 'Rainy' || weatherReport.textContent == 'Thunderstorms' || weatherReport.textContent == 'Drizzle' || weatherReport.textContent == 'Rainstorm') {
+	 else if(weatherReport.textContent == 'Showers' || weatherReport.textContent == 'Rainfall' || weatherReport.textContent == 'Rainy' || weatherReport.textContent == 'Thunderstorms' || weatherReport.textContent == 'Drizzle' || weatherReport.textContent == 'Rainstorm' || weatherReport.textContent == 'Rain') {
 	  
 	  weatherTempEmoji.textContent = '🌧️';
 	  body.style.background = 'linear-gradient(to bottom left, #B2BEB5, #36454F)';
